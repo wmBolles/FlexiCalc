@@ -1,5 +1,5 @@
-### Created by micku7zu
-### updated by wmbolles
+### Created by <a href="https://github.com/micku7zu">micku7zu </a>
+### updated by <a href="https://github.com/wmbolles">wmbolles </a>
 
 # FlexiCalc
 <img src="https://github.com/wmBolles/Calculator/blob/master/images/Calc.png">
