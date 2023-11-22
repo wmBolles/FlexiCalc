@@ -311,11 +311,6 @@ class VanillaTilt {
 
     this.updateCall = null;
   }
-
-  /**
-   * Appends the glare element (if glarePrerender equals false)
-   * and sets the default style
-   */
   prepareGlare() {
     // If option pre-render is enabled we assume all html/css is present for an optimal glare effect.
     if (!this.glarePrerender) {
@@ -432,7 +427,7 @@ class VanillaTilt {
       perspective: 1000,
       easing: "cubic-bezier(.03,.98,.52,.99)",
       scale: 1,
-      speed: 300,
+      speed: 100,
       transition: true,
       axis: null,
       glare: false,
@@ -494,9 +489,6 @@ if (typeof document !== "undefined") {
   /* expose the class to window */
   window.VanillaTilt = VanillaTilt;
 
-  /**
-   * Auto load
-   */
   VanillaTilt.init(document.querySelectorAll("[data-tilt]"));
 }
 
