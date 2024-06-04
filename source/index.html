@@ -9,8 +9,8 @@
     <title>wmcalc</title>
 </head>
 <body>
-    <div class="container">
-        <form class="calculator" name="calc">
+    <div class="flexicalc-container">
+        <form class="flexicalc-calculator" name="calc">
            <input type="text" readonly class="value" name="txt"/>
            <span class="num clear" onclick="calc.txt.value = ''">c</span>
            <span class="num" onclick="document.calc.txt.value +='/'">/</span>
@@ -35,7 +35,7 @@
    
         <script type="text/javascript" src="vanilla-tilt.js"></script>
 <script type="text/javascript">
-	VanillaTilt.init(document.querySelector(".container"), {
+	VanillaTilt.init(document.querySelector(".flexicalc-container"), {
 		max: 55,
 		speed: 4000
 	});

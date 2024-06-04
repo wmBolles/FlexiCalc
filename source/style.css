@@ -34,7 +34,7 @@ body::after{
     background: linear-gradient(#532828,#93fc0a);
     clip-path: circle(22% at 70% 90%);
 }
-.container{
+.flexicalc-container{
     position: relative;
     background: rgba(255, 255, 255, 0.05);
     border-radius: 6px;
@@ -45,11 +45,11 @@ body::after{
     border-left:1px solid rgba(255, 255, 255, 0.02);
     box-shadow: 5px 5px 30px rgba(0,0,0,0.2);
 }
-.container .calculator{
+.flexicalc-container .flexicalc-calculator{
     position: relative;
     display: grid;
 }
-.container .calculator .value{
+.flexicalc-container .flexicalc-calculator .value{
     grid-column: span 4;
     height: 140px;
     width: 300px;
@@ -64,7 +64,7 @@ body::after{
     border-right: 1px rgba(255, 255, 255, 0.1);
     transition: 1.5s;
 }
-.container .calculator span{
+.flexicalc-container .flexicalc-calculator span{
     display: grid;
     place-items: center;
     width: 75px;
@@ -77,25 +77,25 @@ body::after{
     border-bottom: 1px rgba(255, 255, 255, 0.05);
     border-right: 1px rgba(255, 255, 255, 0.05);
 }
-.container .calculator span:hover{
+.flexicalc-container .flexicalc-calculator span:hover{
     transition: 0.2s;
     background: rgba(255, 255, 255, 0.05);
 }
-.container .calculator span:active{
+.flexicalc-container .flexicalc-calculator span:active{
     background: #14ff47;
     color: #192f00;
     font-size: 24px;
     font-weight: 500;
 }
-.container .calculator .clear{
+.flexicalc-container .flexicalc-calculator .clear{
     grid-column: span 2;
     width: 150px; 
     background: rgba(255, 255, 255, 0.05);
 }
-.container .calculator .plus{
+.flexicalc-container .flexicalc-calculator .plus{
     grid-row: span 2;
     height: 150px;
 }
-.container .calculator .equal{
+.flexicalc-container .flexicalc-calculator .equal{
     background: rgba(255, 255, 255, 0.05);
 }
